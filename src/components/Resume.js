@@ -27,7 +27,7 @@ export default class Resume extends Component {
                         <img
                           className="svg-pic"
                           src="images/coding.svg"
-                          alt=""
+                          alt="project image"
                         />{" "}
                         {item.framework}{" "}
                       </p>

@@ -202,7 +202,8 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 12px;
 }
 #about p {
-   line-height: 30px;
+   font: 20px;
+   line-height: 35px;
    color: #030303;
 }
 #about .profile-pic {
@@ -309,6 +310,8 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
    width: 25px;
    height: 25px;
+   display: inline-block;
+   vertical-align: middle;
    
    /* border-radius: 100%; */
 }
@@ -321,13 +324,38 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------- */
 /* *Contacts* */
 /* ------------------------------------------- */
+
+#contacts {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
 #contacts .svg-pic {
    position: relative;
    width: 25px;
    height: 25px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 20;
    
    /* border-radius: 100%; */
 }
+#contacts h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
+#contacts p {
+   line-height: 30px;
+   color: #030303;
+   font: 32;
+   font-weight: bold;
+   margin-right: 20;
+   
+}
+
+
 
 
 /*----------------------------------------------*/

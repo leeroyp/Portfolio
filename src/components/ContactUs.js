@@ -17,22 +17,18 @@ export default class Resume extends Component {
             <ul>
               <li>
                 <p>
-                  <img className="svg-pic" src="images/coding.svg" alt="" />
+                  <img className="svg-pic" src="images/telephone.svg" alt="" />
                   {resumeData.phone}
                 </p>
               </li>
               <li>
                 <p>
-                  <img className="svg-pic" src="images/event.svg" alt="" />
+                  <img className="svg-pic" src="images/email.svg" alt="" />
                   
                   {resumeData.email}
                 </p>
               </li>
-              <li>
-                <p>
-                  <img className="svg-pic" src="images/event.svg" alt="" />
-                </p>
-              </li>
+              
             </ul>
           </div>
         </div>
