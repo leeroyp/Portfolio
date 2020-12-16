@@ -2,7 +2,6 @@ let resumeData = {
     "name": "Leeroy Phili",
     "role": "Junior Full stack Web Developer",
     "linkedinId":"Leeroy Phili",
-    "skypeid": "Your skypeid",
     "roleDescription": " Looking for a role in either front-end or back-end.   ",
     "phone":"4168284176",
     "email":"leeroyphili@gmail.com",
@@ -116,16 +115,6 @@ let resumeData = {
       }
     ],
    
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
   }
   
   export default resumeData
