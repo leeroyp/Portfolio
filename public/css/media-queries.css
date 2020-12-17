@@ -216,6 +216,33 @@
    /* About Section
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
+
+   #about h1 {
+      font: 18px/48px 'opensans-bold', sans-serif;
+      text-transform: uppercase;
+      /* letter-spacing: 1px; */
+      padding-bottom: 0px;
+   
+   }
+   #about h1 span {
+      border-bottom: 3px solid #11ABB0;
+      padding-bottom: 0px;
+      color: rgb(2, 2, 2);
+   }
+   #about p {
+      font: 20px;
+      line-height: 20px;
+   }
+   #about .download .button {
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
+   }
+   #about .main-col { padding-right: 0px; }
+
+    /* projects Section
+   -------------------------------------------------------------------- */
+   #about .profile-pic { display: none; }
    #about .download .button {
       width: 100%;
       text-align: center;
@@ -226,6 +253,14 @@
 
    /* Resume Section
    --------------------------------------------------------------------- */
+   #resume .project-pic {
+      position: relative;
+      width: 50px;
+      height: 114px;
+      margin-left: 12px;
+    }
+    #resume .main-col { padding-right: 0px; }
+
    #resume .header-col {
       padding-top: 0;
       margin-bottom: 48px;
@@ -362,6 +397,86 @@
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
+
+   /* about */
+   /* -------------------------------------------------------- */
+
+   #about .profile-pic { display: none; }
+
+   #about h1 {
+      font: 18px/48px 'opensans-bold', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding-bottom: 0px;
+   
+   }
+   #about h1 span {
+      border-bottom: 3px solid #11ABB0;
+      padding-bottom: 5px;
+      ;
+   }
+   #about h2 {
+      font: 22px/30px 'opensans-bold', sans-serif;
+      color: rgb(10, 10, 10);
+      margin-bottom: 5px;
+      margin-top: 0px;
+   }
+
+   #about {
+      background: #fcfafa;
+      padding-top: 10px;
+      /* padding-bottom: 10px; */
+      overflow: hidden;
+   }
+   .education, .work {
+      margin-bottom: 4px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #E8E8E8;
+   }
+
+
+   /* skill bars  */
+/* ---------------------------------------- */
+.bars {
+	width: 95%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+.bars .skills {
+  	margin-top: 15px;
+   list-style: none;
+}
+.bars li {
+   position: relative;
+  	margin-bottom: 30px;
+  	background: rgb(3, 3, 3);
+  	height: 42px;
+  	border-radius: 3px;
+}
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: #030303;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: normal;
+   position: relative;
+	top: 8px;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #807d88;
+   display: inline-block;
+  	height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+
 
    /* footer
    ------------------------------------------------------------------------ */
