@@ -5,21 +5,25 @@ export default class Resume extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
- <div className="row education">
-<div className="three columns header-col">
-   <h1><span>Projects</span></h1>
-</div>
-</div>
-        
+        <div className="row education">
+          <div className="three columns header-col">
+            <h1>
+              <span>Projects</span>
+            </h1>
+          </div>
+        </div>
+
         {resumeData.projects &&
           resumeData.projects.map((item) => {
             return (
               <div className="row" key={item.name}>
-                <div className="nine columns main-col">
-                  <h2>{item.name}</h2>
-                  <p>{item.projectDiscription}</p>
-                 
+                <div className=" container">
+                  <img className="container-pic" src={item.imgurl} alt="" />
 
+                  <div className="container_text">
+                    <h2>{item.name}</h2>
+                    <p>{item.projectDiscription}</p>
+                  </div>
 
                   <ul>
                     <li>
@@ -31,7 +35,6 @@ export default class Resume extends Component {
                         />{" "}
                         {item.framework}{" "}
                       </p>
-
                     </li>
                     <li>
                       <p>
@@ -41,18 +44,15 @@ export default class Resume extends Component {
                           alt=""
                         />
                         {item.year}
-                        <a href={item.weburl} target="_blank"><button className="sourceBtn" >webpage</button></a>
-                        <a href={item.giturl} target="_blank"><button className="sourceBtn" > Source Code</button></a>
+                        <a href={item.weburl} target="_blank">
+                          <button className="sourceBtn">webpage</button>
+                        </a>
+                        <a href={item.giturl} target="_blank">
+                          <button className="sourceBtn"> Github</button>
+                        </a>
                       </p>{" "}
-                      
                     </li>
-                    
                   </ul>
-
-                  
-                </div>
-                <div className="three columns">
-                  <img className="project-pic" src={item.imgurl} alt="" />
                 </div>
               </div>
             );

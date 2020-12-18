@@ -253,13 +253,16 @@
 
    /* Resume Section
    --------------------------------------------------------------------- */
-   #resume .project-pic {
+   
+  
+
+   /* #resume .project-pic {
       position: relative;
       width: 50px;
       height: 114px;
       margin-left: 12px;
-    }
-    #resume .main-col { padding-right: 0px; }
+    } */
+    /* #resume .main-col { padding-right: 0px; } */
 
    #resume .header-col {
       padding-top: 0;
@@ -268,7 +271,15 @@
    }
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
+   #resume .container{padding-right:30px;}
    #resume h3, #resume .info { text-align: center; }
+
+   .container-pic {
+
+      width: 75px;
+      height: 150px;
+      float: right
+   }
       
    .bars { width: 100%; }
 
@@ -434,6 +445,40 @@
       border-bottom: 1px solid #E8E8E8;
    }
 
+   /* projects  */
+   /* ----------------------------------------- */
+   #resume {
+      background: #fcfafa;
+      padding-top: 10px;
+      /* padding-bottom: 10px; */
+      overflow: hidden;
+   }
+
+   #resume .container {
+      padding: 5;
+    }
+   .container_text {
+      line-height: 15px;
+      color: #030303;
+      font-size: 24;
+      display: inline;
+      width: 50%;
+      padding:10
+
+   
+   }
+   .container-pic {
+
+      width: 50px;
+      height: 100px;
+      float: right
+   }
+
+   #resume .sourceBtn {
+      position: relative;
+       /* margin: 2px;
+      width: 65px; */
+   }
 
    /* skill bars  */
 /* ---------------------------------------- */

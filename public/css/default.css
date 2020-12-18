@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -755,8 +755,17 @@ properly.
 --------------------------------------------------------------- */
 @media only screen and (max-width: 460px) {
 
-   .row { width: auto; }
-
+   .row { width: auto; 
+     
+   }
+   .container {
+	   width: auto !important;
+	   float: none;
+	   margin-left: 0;
+	   margin-right: 0;
+      padding: 0 30px;
+   }
+   
 }
 
 /* larger screens
