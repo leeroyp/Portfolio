@@ -471,23 +471,23 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 60%;
+  	width: 74%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
 
    .reactjs{
-      width: 65%;
+      width: 72%;
       -moz-animation: jquery 2s ease;
       -webkit-animation: jquery 2s ease;
  }
  .sql{
-   width: 70%;
+   width: 78%; 
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
 .reactnative{
-   width: 65%;
+   width: 68%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
