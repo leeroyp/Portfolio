@@ -45,10 +45,10 @@ export default class Resume extends Component {
                         />
                         {item.year}
                         <a href={item.weburl} target="_blank">
-                          <button className="sourceBtn">webpage</button>
+                          <button className="sourceBtn">Web Page</button>
                         </a>
                         <a href={item.giturl} target="_blank">
-                          <button className="sourceBtn"> Github</button>
+                          <button className="sourceBtn"> GitHub</button>
                         </a>
                       </p>{" "}
                     </li>

@@ -91,7 +91,9 @@ header .social {
 }
 header .social li {
    display: inline-block;
-   margin: 0 15px;
+   /* justify-content: center; */
+   /* margin: 0 15px; */
+   margin-left: 20px;
    padding: 0;
 }
 header .social li a { color: #fff; }
@@ -211,6 +213,7 @@ ul#nav li.current a { color: #F06000; }
    width: 400px;
    height: 300px;
    border-radius: 100%;
+   object-fit: cover
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -231,7 +234,7 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 #about h1 {
-   font: 18px/48px 'opensans-bold', sans-serif;
+   font: 32px/48px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 20px;
@@ -305,7 +308,7 @@ ul#nav li.current a { color: #F06000; }
 
 #resume h1 {
    font: 32px/48px 'opensans-bold', sans-serif;
-   /* text-transform: uppercase; */
+   text-transform: uppercase;
    letter-spacing: 1px;
 
 }
@@ -376,7 +379,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #contacts .svg-pic {
    position: relative;
-   width: 25px;
+   width: 50px;
    height: 25px;
    display: inline-block;
    vertical-align: middle;
@@ -384,9 +387,16 @@ ul#nav li.current a { color: #F06000; }
    
    /* border-radius: 100%; */
 }
+
+#contacts h1{
+   font: 32px/48px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
 #contacts h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+   
 }
 
 #contacts p {
@@ -1130,14 +1140,14 @@ footer .social-links {
    font-size: 30px;
 }
 footer .social-links li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-left: 42px;
-    color: #F06000;
+
+   display: inline-block;
+   margin-left: 20px;
+   padding: 0;
+   color: #978a81;
 }
 
-footer .social-links li:first-child { margin-left: 0; }
+/* footer .social-links li:first-child { margin-left: 0; } */
 
 /* Go To Top Button */
 #go-top {
