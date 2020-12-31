@@ -49,6 +49,8 @@
 
    /* About Section
    ------------------------------------------------------------------- */
+   #about h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+
    #about .profile-pic {
       width: 114px;
       height: 114px;
@@ -82,6 +84,8 @@
 
    /* Contact Section
    ------------------------------------------------------------------- */
+   #contacts h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+
    #contact .section-head { margin-bottom: 30px; }
    #contact .header-col h1:before {
       font-size: 66px;
@@ -414,7 +418,7 @@
 
    #about .profile-pic { display: none; }
 
-   #about h1 {
+   /* #about h1 {
       font: 18px/48px 'opensans-bold', sans-serif;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -425,7 +429,7 @@
       border-bottom: 3px solid #11ABB0;
       padding-bottom: 5px;
       ;
-   }
+   } */
    #about h2 {
       font: 22px/30px 'opensans-bold', sans-serif;
       color: rgb(10, 10, 10);
