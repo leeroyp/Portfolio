@@ -30,7 +30,7 @@ export default class About extends Component {
               <span>{resumeData.skillsDescription}</span>
             </h1>
 
-            <div className="bars">
+            {/* <div className="bars">
               <ul className="skills">
                 {resumeData.skills &&
                   resumeData.skills.map((item) => {
@@ -44,7 +44,7 @@ export default class About extends Component {
                     );
                   })}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

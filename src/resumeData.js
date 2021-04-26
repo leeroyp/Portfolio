@@ -1,8 +1,8 @@
 let resumeData = {
     "name": "Leeroy Phili",
-    "role": "Junior Full stack Web Developer",
+    "role": "Full stack Web Developer",
     "linkedinId":"Leeroy Phili",
-    "roleDescription": " Looking for a role in either front-end or back-end development.   ",
+    "roleDescription": " Located in Toronto, On. And i love watching and playing soccer     ",
     "phone":"416-828-4176",
     "email":"leeroyphili@gmail.com",
 
@@ -93,7 +93,7 @@ let resumeData = {
       
     ],
  
-    "skillsDescription":"Skill Level",
+    "skillsDescription":"Web Developemnt Skills",
     "skills":[
       {
         "skillname":"HTML5"
