@@ -821,9 +821,10 @@ properly.
  }
  
  .about_skills img{
-   width: 100px;
-   height: 107px;
+   width: 120px;
+   height: 127px;
    margin: 5px;
+
    transition: .1s ease-in-out;
  }
  
@@ -832,4 +833,30 @@ properly.
  }
 
 
+ .soft_skills {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 0;
+   padding: 10px 0;
+ }
+ 
+ .soft_skills img{
+   width: 175px;
+   height: 157px;
+   margin: 5px;
+   transition: .1s ease-in-out;
+   border-radius: 15px;
+   border: 5px solid #555;
+ }
+ .soft_skills h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .soft_skills img:hover {
+   transform: scale(1.1);
+ }
 

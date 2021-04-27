@@ -12,9 +12,13 @@ import mongo from "../images/mongodb.svg";
 import node from "../images/nodejs.svg";
 import react from "../images/react.svg";
 import redux from "../images/redux.svg";
-import redux from "../images/redux.svg";
-import redux from "../images/redux.svg";
-import redux from "../images/redux.svg";
+import problemSolver from "../images/problemSolver.jpeg";
+import TeamPlayer from "../images/TeamPlayer.png";
+import timeManagement from "../images/timeManagement.jpeg";
+import accountable from "../images/accountability.jpeg";
+import ProblemSolving from "../images/ProblemSolving.jpeg";
+import SelfLearning from "../images/SelfLearning.jpeg";
+import Time from "../images/Time.jpeg";
 
 export default class About extends Component {
   render() {
@@ -29,37 +33,49 @@ export default class About extends Component {
           </div>
         </div>
 
-        <div className="row skill">
-        <div className="nine columns main-col">
-            <h1>
-              <span>{resumeData.skillsDescription}</span>
-            </h1>
-            <div className="about_skills">
-              <img src={bootstrap} alt="Bootstrap css logo" />
-              <img src={bootstrap} alt="Bootstrap css logo" />
-              <img src={bootstrap} alt="Bootstrap css logo" />
+        <div className="row education">
+          <div className="container">
+            <div className="soft_skills">
+              <div>
+                <img src={accountable} alt="Bootstrap css logo" />
+                <h6>accountability</h6>
+              </div>
+              <div>
+                <img src={ProblemSolving} alt="Bootstrap css logo" />
+                <h6>Problem Solving</h6>
+              </div>
+              <div>
+                <img src={SelfLearning} alt="Bootstrap css logo" />
+                <h6>Self Learner</h6>
+              </div>
+              <div>
+                <img src={Time} alt="Bootstrap css logo" />
+                <h6>Time Management</h6>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
 
-        <div className="row">
-          <div className="three columns">
+        <div className="row education">
+          {/* <div className="three columns">
             <img className="profile-pic" src="images/me.jpeg" alt="" />
-          </div>
+          </div> */}
 
-          <div className="nine columns main-col">
+          <div className="container">
+          <h4>
+              <span>Bio</span>
+            </h4>
             {/* <h2>About Me</h2> */}
             <p>{resumeData.aboutme}</p>
           </div>
         </div>
 
-        <div className="row skill">
-          <div className="three columns header-col"></div>
+        <div className="row education">
 
-          <div className="nine columns main-col">
-            <h1>
+          <div className="container">
+            <h4>
               <span>{resumeData.skillsDescription}</span>
-            </h1>
+            </h4>
 
             {/* <div className="bars">
               <ul className="skills">
@@ -77,7 +93,6 @@ export default class About extends Component {
               </ul>
             </div> */}
 
-            
             <div className="about_skills">
               <img src={bootstrap} alt="Bootstrap css logo" />
               <img src={css} alt="css logo" />
