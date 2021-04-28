@@ -825,7 +825,7 @@ properly.
    height: 127px;
    margin: 5px;
 
-   transition: .1s ease-in-out;
+   transition: .3s ease-in-out;
  }
  
  .about_skills img:hover {
@@ -840,6 +840,8 @@ properly.
    justify-content: space-around;
    margin: 0;
    padding: 10px 0;
+   margin-left: auto;
+   margin-right: auto;
  }
  
  .soft_skills img{
@@ -858,5 +860,21 @@ properly.
  
  .soft_skills img:hover {
    transform: scale(1.1);
+ }
+
+ .react-rotating-text-cursor {
+   animation: blinking-cursor 0.99s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+ }
+  
+ @keyframes blinking-cursor {
+   0% {
+     opacity: 0;
+   }
+   50% {
+     opacity: 1;
+   }
+   100% {
+     opacity: 0;
+   }
  }
 

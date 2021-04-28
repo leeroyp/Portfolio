@@ -28,7 +28,7 @@ let resumeData = {
           "className":"btn btn-secondary btn-sm"
         }
       ],
-    "aboutme":"My name is Leeroy Phili. I recently graduated from a Full Stack web developer program at the University of Toronto. I'm currently looking for my first job as a developer. In the last few months since graduation, I have been completing personal projects that can be seen on my GitHub page. In an effort to further my knowledge on the subject and stay current with the latest framework updates, I continue to take a number of courses on Udemy during my free time. Although I have no experience in the field, I believe my drive, passion and determination about software development can provide a fresh take on projects. I like new challenges and I am always open to constructive feedback. I am a quick learner and can comfortably adapt to any new environment. I am a team player, ready to use my skills and talents to help build quality and highly functional products.   ",
+    "aboutme":"I have over 3 years of experience as a software developer with a lot of focus on writting clean and elegant and efficient code. Currently I am working as a front end developer for a Startup company Where I m responsibe for developing responsive web applications across platforms and mobile apps using javascript framework React. I enjoy taking on new challenges. While I very much love coding, I also enjoy watch and playing soccer during my spare time.",
     "resume":"images/Leeroy-Phili-Resume.pdf",
     "projects":[
       {

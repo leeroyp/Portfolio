@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/background2.jpg) no-repeat top center;
+   background: #4c5f5d no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -128,6 +128,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 	 padding: 0;
 	 border: none;
 	 outline: none;
+    left: 0;
 }
 
 /* nav-wrap */
@@ -159,6 +160,8 @@ ul#nav li {
    list-style: none;
    height: 48px;
    display: inline-block;
+   
+   
 }
 
 /* Links */
@@ -173,6 +176,7 @@ ul#nav li a {
    text-align: left;
    color: #fff;
 
+   
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
@@ -208,11 +212,11 @@ ul#nav li.current a { color: #F06000; }
    line-height: 35px;
    color: #030303;
 }
-#about .profile-pic {
+#home .profile-pic {
    /* position: relative; */
    width: 400px;
    height: 300px;
-   border-radius: 100%;
+   border-radius: 50%;
    object-fit: cover
 }
 #about .contact-details { width: 41.66667%; }
@@ -325,6 +329,13 @@ ul#nav li.current a { color: #F06000; }
 
 .education, .work {
    margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+
+.home {
+   margin-top: 48px;
+   /* margin-bottom: 48px; */
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }

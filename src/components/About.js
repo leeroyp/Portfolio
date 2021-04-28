@@ -33,12 +33,13 @@ export default class About extends Component {
           </div>
         </div>
 
+
         <div className="row education">
           <div className="container">
             <div className="soft_skills">
               <div>
                 <img src={accountable} alt="Bootstrap css logo" />
-                <h6>accountability</h6>
+                <h6>Accountability</h6>
               </div>
               <div>
                 <img src={ProblemSolving} alt="Bootstrap css logo" />
@@ -65,7 +66,6 @@ export default class About extends Component {
           <h4>
               <span>Bio</span>
             </h4>
-            {/* <h2>About Me</h2> */}
             <p>{resumeData.aboutme}</p>
           </div>
         </div>
@@ -76,23 +76,6 @@ export default class About extends Component {
             <h4>
               <span>{resumeData.skillsDescription}</span>
             </h4>
-
-            {/* <div className="bars">
-              <ul className="skills">
-                {resumeData.skills &&
-                  resumeData.skills.map((item) => {
-                    return (
-                      <li key={item.name}>
-                        <span
-                          className={`bar-expand ${item.skillname.toLowerCase()}`}
-                        />
-                        <em>{item.skillname}</em>
-                      </li>
-                    );
-                  })}
-              </ul>
-            </div> */}
-
             <div className="about_skills">
               <img src={bootstrap} alt="Bootstrap css logo" />
               <img src={css} alt="css logo" />

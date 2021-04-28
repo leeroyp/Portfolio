@@ -51,10 +51,12 @@
    ------------------------------------------------------------------- */
    #about h1 { font: 16px/24px 'opensans-bold', sans-serif; }
 
-   #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
+   #home .profile-pic {
+      /* position: relative; */
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
@@ -220,6 +222,13 @@
    /* About Section
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
+   #home .profile-pic {
+      /* position: relative; */
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover
+   }
 
    #about h1 {
       font: 18px/48px 'opensans-bold', sans-serif;
@@ -417,6 +426,14 @@
    /* -------------------------------------------------------- */
 
    #about .profile-pic { display: none; }
+   
+   #home .profile-pic {
+      /* position: relative; */
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover
+   }
 
    /* #about h1 {
       font: 18px/48px 'opensans-bold', sans-serif;
@@ -444,6 +461,11 @@
       overflow: hidden;
    }
    .education, .work {
+      margin-bottom: 4px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #E8E8E8;
+   }
+   .home {
       margin-bottom: 4px;
       padding-bottom: 5px;
       border-bottom: 1px solid #E8E8E8;
@@ -525,6 +547,56 @@
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+
+
+.about_skills {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   /* justify-content: space-around; */
+   margin: 0;
+   padding: 10px 0;
+ }
+ 
+ .about_skills img{
+   width: 80px;
+   height: 87px;
+   margin: 5px;
+
+   transition: .3s ease-in-out;
+ }
+ 
+ .about_skills img:hover {
+   transform: scale(1.1);
+ }
+
+
+ .soft_skills {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 0;
+   padding: 10px 0;
+ }
+ 
+ .soft_skills img{
+   width: 115px;
+   height: 97px;
+   margin: 5px;
+   transition: .1s ease-in-out;
+   border-radius: 15px;
+   border: 5px solid #555;
+ }
+ .soft_skills h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .soft_skills img:hover {
+   transform: scale(1.1);
+ }
 
 
    /* footer
