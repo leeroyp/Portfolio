@@ -60,7 +60,7 @@ export default class Header extends Component {
 
               </div>
               <hr />
-              <a href="images/LeeroyResume.pdf" target="_blank">
+              <a href="images/Resume.pdf" target="_blank">
                 <button type="button" className="btn btn-secondary">
                   RESUME
                 </button>
